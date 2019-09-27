@@ -105,6 +105,21 @@ body {
     color: #ffffff;
     text-align: center;
     margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+#portfolio-footer {
+    background-color: #9B786F;
+    width: 100vw;
+    height: 50px;
+    border-top: solid;
+    border-color: #9D8D8F;
+    border-width: 10px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
     bottom: 0;
 }
 
@@ -192,7 +207,7 @@ footer {
     float: left;
 }
 
-#rps-img {
+#rutgers-img {
     width: 20rem;
     height: 20rem;
     object-fit: cover;
