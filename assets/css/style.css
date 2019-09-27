@@ -143,6 +143,7 @@ footer {
     background-color: green;
     width: 20rem;
     height: 20rem;
+    position: relative;
     float: left;
     margin: 5% 5.3%;
 }
@@ -173,8 +174,8 @@ footer {
     background-color: #FAED26;
     height: 3rem;
     width: 20rem;
-    position: relative;
-    bottom: -14rem;
+    position: absolute;
+    bottom: 2rem;
     color: #46344E;
     text-align: center;
     z-index: 2;
