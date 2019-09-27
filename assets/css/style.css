@@ -170,6 +170,39 @@ footer {
     float: left;
 }
 
+#trivia-img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    float: left;
+}
+
+#rutgers-img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    float: left;
+}
+
+#rps-img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    float: left;
+}
+
 .portfolio-name {
     background-color: #FAED26;
     height: 3rem;
@@ -180,6 +213,8 @@ footer {
     text-align: center;
     z-index: 2;
 }
+
+
 
 h3 {
     padding: 1rem;
