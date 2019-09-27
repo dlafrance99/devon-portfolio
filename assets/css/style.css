@@ -135,7 +135,6 @@ footer {
 }
 
 .portfolio-box {
-    background-color: blue;
     margin: auto;
     width: 90%;
 }
@@ -144,7 +143,43 @@ footer {
     background-color: green;
     width: 20rem;
     height: 20rem;
-    padding: 10px;
     float: left;
     margin: 5% 5.3%;
+}
+
+#hangman-img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    float: left;
+}
+
+#bearfoot-voyager {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    float: left;
+}
+
+.portfolio-name {
+    background-color: #FAED26;
+    height: 3rem;
+    width: 20rem;
+    position: relative;
+    bottom: -14rem;
+    color: #46344E;
+    text-align: center;
+    z-index: 2;
+}
+
+h3 {
+    padding: 1rem;
 }
