@@ -60,7 +60,7 @@ body {
 }
 
 #content-box {
-    width: 70%;
+    width: 70vw;
     background-color: #950740;
     margin: auto;
     margin-top: 30px;
@@ -166,16 +166,19 @@ footer {
 
 .game-div {
     background-color: green;
-    width: 20rem;
-    height: 20rem;
+    width: 25vw;
+    height: 25vw;
     position: relative;
     float: left;
-    margin: 5% 5.3%;
+    margin: 5% 3vw;
 }
 
-#hangman-img {
-    width: 20rem;
-    height: 20rem;
+.port-img {
+    width: 25vw;
+    height: 25vw;
+}
+
+#train-img {
     object-fit: cover;
     position: relative;
     top: 0;
@@ -184,9 +187,7 @@ footer {
     float: left;
 }
 
-#bearfoot-voyager {
-    width: 20rem;
-    height: 20rem;
+#bearfoot-voyager-img {
     object-fit: cover;
     position: relative;
     top: 0;
@@ -196,8 +197,6 @@ footer {
 }
 
 #trivia-img {
-    width: 20rem;
-    height: 20rem;
     object-fit: cover;
     position: relative;
     top: 0;
@@ -207,8 +206,6 @@ footer {
 }
 
 #rutgers-img {
-    width: 20rem;
-    height: 20rem;
     object-fit: cover;
     position: relative;
     top: 0;
@@ -218,8 +215,6 @@ footer {
 }
 
 #rps-img {
-    width: 20rem;
-    height: 20rem;
     object-fit: cover;
     position: relative;
     top: 0;
@@ -231,9 +226,9 @@ footer {
 .portfolio-name {
     background-color: #C3073F;
     height: 3rem;
-    width: 20rem;
+    width: 25vw;
     position: absolute;
-    bottom: 2rem;
+    bottom: 1vw;
     color: #1A1A1D;
     text-align: center;
     z-index: 2;
@@ -243,4 +238,50 @@ footer {
 
 h3 {
     padding: 1rem;
+    font-size: 1.5rem;
 }
+
+
+@media screen and (max-width: 980px){
+   h3 {
+       font-size: 1.1rem;
+   }
+}
+
+@media screen and (max-width: 768px){
+    
+    .game-div{
+        width: 60vw;
+        height: 60vw;
+        margin: 5% 1vw;
+    }
+
+    .port-img {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .portfolio-name {
+        width: 60vw;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    #name-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 640px){
+
+    #name-text {
+        font-size: 1.5rem;
+        padding: 30px 10px;
+    }
+
+    .links {
+        font-size: 1.1rem;
+    }
+}
+
