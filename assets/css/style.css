@@ -81,15 +81,15 @@ body {
 }
 
 #profilePicDiv {
-    width: 15rem;
-    height: 15rem;
+    width: 25vw;
+    height: 25vw;
     float: left;
     margin: 3%;
 }
 
 #profilePic {
-    width: 15rem;
-    height: 15rem;
+    width: 25vw;
+    height: 25vw;
     object-fit: cover;
 }
 
@@ -108,7 +108,7 @@ body {
     color: #1A1A1D;
     text-align: center;
     margin-top: 20px;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
@@ -282,6 +282,19 @@ h3 {
 
     .links {
         font-size: 1.1rem;
+    }
+
+    #profilePicDiv {
+        height: 50vw;
+        width: 50vw;
+        float: none;
+
+    }
+
+    #profilePic {
+        height: 50vw;
+        width: 50vw;
+        margin: 0px 7vw;
     }
 }
 
