@@ -191,6 +191,15 @@ footer {
     float: left;
 }
 
+#Save-The-Dish {
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    float: left;
+}
+
 #bearfoot-voyager-img {
     object-fit: cover;
     position: relative;
