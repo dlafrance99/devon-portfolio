@@ -12,6 +12,10 @@
     min-height: 100vh;
 }
 
+.contentwrapper {
+    height: 75vh;
+}
+
 h1 {
     margin: 0;
 }
@@ -27,7 +31,7 @@ body {
 #header {
     background-color: #6F2232;
     width: 100%;
-    height: 100px;
+    height: 12vh;
     position: relative;
     top: 0;
     border-bottom: solid;
@@ -101,7 +105,7 @@ body {
 #footer {
     background-color: #6F2232;
     width: 100vw;
-    height: 50px;
+    height: 10vh;
     border-top: solid;
     border-color: #950740;
     border-width: 10px;
