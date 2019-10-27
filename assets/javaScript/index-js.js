@@ -15,14 +15,14 @@ $("#enterButton").on("click", function () {
     });
 })
 
-$(".portfolio-link").on("click", function(event){
+// $(".portfolio-link").on("click", function(event){
     // event.preventDefault();
 
     // $(".allContent-wrapper").fadeOut(1000, function(){
     //     window.location.replace("portfolio.html")
     // });
 
-})
+// })
 
 $(".contact-link").on("click", function(event){
     event.preventDefault();
