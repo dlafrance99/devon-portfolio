@@ -1,3 +1,10 @@
+$(document).ready(function(){
+    $(".intro").hide();
+
+    $(".intro").fadeIn(1000);
+})
+
+
 hideAll();
 
 
