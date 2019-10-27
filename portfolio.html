@@ -10,121 +10,181 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="assets/javaScript/portfolio.js" type="text/javaScript"></script>
+
 </head>
 
 <body>
-    <div class="wrapper">
 
-        <div id="header">
-            <div id="name">
-                <h1 id="name-text">
-                    Devon LaFrance
-                </h1>
+
+    <div class="allContent-wrapper">
+        <div class="backgroundimg">
+        </div>
+
+
+        <div class="portfolio-wrapper">
+
+            <div id="header">
+                <div id="name">
+                    <h1 id="name-text">
+                        Devon LaFrance
+                    </h1>
+                </div>
+                <div id="links">
+                    <h2>
+                        <a class="links home-link" href="home.html">
+                            About
+                        </a>
+                        <span class="links">
+                            |
+                        </span>
+                        <a class="links portfolio-link" href="portfolio.html">
+                            Portfolio
+                        </a>
+                        <span class="links">
+                            |
+                        </span>
+                        <a class="links contact-link" href="contact.html">
+                            Contact
+                        </a>
+                    </h2>
+                </div>
             </div>
-            <div id="links">
-                <h2>
-                    <a class="links" href="index.html">
-                        About
-                    </a>
-                    <span class="links">
-                        |
-                    </span>
-                    <a class="links" href="portfolio.html">
+
+
+
+            <div class="clearfix" id="content-box">
+                <div id="title">
+                    <h1>
                         Portfolio
-                    </a>
-                    <span class="links">
-                        |
-                    </span>
-                    <a class="links" href="contact.html">
-                        Contact
-                    </a>
-                </h2>
+                    </h1>
+                </div>
+
+                <hr id="about-hr">
+
+                <div class="type">
+                    <h2>Full Stack apps</h2>
+                </div>
+
+                <hr id="about-hr">
+
+                <div class="portfolio-box clearfix">
+                    <div class="game-div left-div" id="std">
+                        <a href="https://enigmatic-plains-92026.herokuapp.com/main" target="_blank">
+                            <img class="port-img" id="Save-The-Dish" src="assets/images/food.png" alt="Food image">
+                        </a>
+                        <h3 class="portfolio-name">
+                            Save-The-Dish
+                        </h3>
+                        <div class="description" id="stdInfo">
+                            Save the dish is a restaurant and menu review website. This app uses Node.js, Javascript,
+                            ejs, Passport, jQuery, mySQL, sequelize, express.js, and Heroku deployment.
+                        </div>
+                    </div>
+
+                    <div class="game-div left-div" id="bobs">
+                        <a href="https://burger-bonanza.herokuapp.com/" target="_blank">
+                            <img class="port-img" id="bob-img" src="assets/images/burger.jpg" alt="Burger">
+                        </a>
+                        <h3 class="portfolio-name">
+                            Bob's Burger Bonanza
+                        </h3>
+                        <div class="description" id="bobsInfo">
+                            Bob's Burger Bonanza allows the user to add burgers to the menu, eat the burger, then eat
+                            again. This app uses MySQL, Node, Express, Handlebars, and ORM.
+                        </div>
+                    </div>
+                </div>
+
+                <hr id="frontEndSplit">
+
+                <div class="type" id="frontEndApps">
+                    <h3>Front End Apps</h3>
+                </div>
+                <hr id="about-hr">
+
+                <div class="portfolio-box clearfix">
+
+                    <div class="game-div right-div" id="bearfootvoyage">
+                        <a href="https://dlafrance99.github.io/Project-one-take-two/" target="_blank">
+                            <img class="port-img" id="bearfoot-voyager-img" src="assets/images/AerialTrail.jpg"
+                                alt="Car on road">
+                        </a>
+                        <h3 class="portfolio-name">
+                            Bearfoot-Voyager
+                        </h3>
+                        <div class="description" id="bearfootInfo">
+                            Bearfoot-Voyager allows users to find information about a searched destination. This app
+                            uses front end design, APIs, AJAX calls, Skeleton framework, and input validation.
+                        </div>
+                    </div>
+
+                    <div class="game-div left-div" id="trainSchedule">
+                        <a href="https://dlafrance99.github.io/Train-Scheduler/" target="_blank">
+                            <img class="port-img" id="train-img" src="assets/images/Train.jpg" alt="train">
+                        </a>
+                        <h3 class="portfolio-name">
+                            Train Scheduler
+                        </h3>
+                        <div class="description" id="trainInfo">
+                            Train Scheduler allows users to check train schedules, as well as add a train of their own.
+                            This app uses firebase, Moment.js, and front end design.
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr id="backEndSplit">
+
+                <div class="type" id="backEndApps">
+                    <h2>Back End Apps</h2>
+                </div>
+                <hr id="about-hr">
+
+                <div class="portfolio-box clearfix">
+
+                    <div class="game-div right-div" id="liri">
+                        <a href="https://github.com/dlafrance99/liri-node-app" target="_blank">
+                            <img class="port-img" id="rutgers-img" src="assets/images/Rutgers.jpeg" alt="Rutgers">
+                        </a>
+                        <h3 class="portfolio-name">
+                            liri node
+                        </h3>
+                        <div class="description" id="liriInfo">
+                            Liri allows users to search an artist, movie or song and it will return information about
+                            that subject. Liri uses Node, Spotify-api, axios, OMDB api, Bands in Town api, and Moment
+                            js.
+                        </div>
+                    </div>
+
+                    <div class="game-div left-div" id="bamazon">
+                        <a href="https://github.com/dlafrance99/bamazon" target="_blank">
+                            <img class="port-img" id="rps-img" src="assets/images/Rock Paper Scissors.jpeg"
+                                alt="Rock Paper Scissors">
+                        </a>
+                        <h3 class="portfolio-name">
+                            Bamazon
+                        </h3>
+                        <div class="description" id="bamazonInfo">
+                            Bamazon works as a mock storefront, allowing users to "buy items" from an inventory. This app uses Node, inquirer, and Mysql.
+                        </div>
+                    </div>
+
+
+                </div>
+
             </div>
-        </div>
 
-        <div class="clearfix" id="content-box">
-            <div id="title">
-                <h1>
-                    Portfolio
-                </h1>
+
+
+            <div id="portfolio-footer">
+                <footer>
+                    Copyright &copy;
+                </footer>
             </div>
-
-            <hr id="about-hr">
-
-            <div class="portfolio-box clearfix">
-                <div class="game-div left-div" id="hangman-box">
-                    <a href="https://enigmatic-plains-92026.herokuapp.com/main" target="_blank">
-                        <img class="port-img" id="Save-The-Dish" src="assets/images/food.png" alt="Food image">
-                    </a>
-                    <h3 class="portfolio-name">
-                        Save-The-Dish
-                    </h3>
-                </div>
-
-                <div class="game-div right-div">
-                    <a href="https://dlafrance99.github.io/Project-one-take-two/" target="_blank">
-                        <img class="port-img" id="bearfoot-voyager-img" src="assets/images/AerialTrail.jpg"
-                            alt="Car on road">
-                    </a>
-                    <h3 class="portfolio-name">
-                        Bearfoot-Voyager
-                    </h3>
-                </div>
-
-                <div class="game-div left-div" id="hangman-box">
-                    <a href="https://dlafrance99.github.io/Train-Scheduler/" target="_blank">
-                        <img class="port-img" id="train-img" src="assets/images/Train.jpg" alt="train">
-                    </a>
-                    <h3 class="portfolio-name">
-                        Train Scheduler
-                    </h3>
-                </div>
-
-                <div class="game-div left-div">
-                    <a href="https://dlafrance99.github.io/TriviaGame/" target="_blank">
-                        <img class="port-img" id="trivia-img" src="assets/images/Trump.jpg" alt="Donald Trump Cartoon">
-                    </a>
-                    <h3 class="portfolio-name">
-                        Trivia Game
-                    </h3>
-                </div>
-                <div class="game-div right-div">
-                    <a href="https://github.com/dlafrance99/liri-node-app" target="_blank">
-                        <img class="port-img" id="rutgers-img" src="assets/images/Rutgers.jpeg" alt="Rutgers">
-                    </a>
-                    <h3 class="portfolio-name">
-                        liri node
-                    </h3>
-                </div>
-                <div class="game-div left-div">
-                    <a href="https://github.com/dlafrance99/bamazon" target="_blank">
-                        <img class="port-img" id="rps-img" src="assets/images/Rock Paper Scissors.jpeg"
-                            alt="Rock Paper Scissors">
-                    </a>
-                    <h3 class="portfolio-name">
-                        Bamazon
-                    </h3>
-                </div>
-                <div class="game-div left-div">
-                    <a href="https://burger-bonanza.herokuapp.com/" target="_blank">
-                        <img class="port-img" id="rps-img" src="assets/images/burger.jpg" alt="Burger">
-                    </a>
-                    <h3 class="portfolio-name">
-                        Bob's Burger Bonanza
-                    </h3>
-                </div>
-            </div>
-
-        </div>
-
-        <div id="portfolio-footer">
-            <footer>
-                Copyright &copy;
-            </footer>
         </div>
     </div>
 
-    <script rel="javascript" type="text" src="assets/javaScript/java.jss"></script>
 </body>
 
 </html>
