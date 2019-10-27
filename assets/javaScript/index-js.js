@@ -16,10 +16,10 @@ $("#enterButton").on("click", function () {
 })
 
 $(".portfolio-link").on("click", function(event){
-    event.preventDefault();
+    // event.preventDefault();
 
     $(".allContent-wrapper").fadeOut(1000, function(){
-        window.location.replace("../../portfolio.html")
+        window.location.replace("portfolio.html")
     });
 
 })
