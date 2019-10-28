@@ -9,7 +9,7 @@
 }
 
 .intro {
-    display: none
+    display: none;
 }
 
 .allContent-wrapper {
@@ -263,7 +263,7 @@ footer {
     float: left;
 }
 
-#rutgers-img {
+#liri-img {
     object-fit: cover;
     position: relative;
     top: 0;
@@ -272,7 +272,7 @@ footer {
     float: left;
 }
 
-#rps-img {
+#bamazon-img {
     object-fit: cover;
     position: relative;
     top: 0;
@@ -296,6 +296,7 @@ footer {
     background-color: black;
     color: rgb(255, 255, 255);
     padding: 5px;
+    display: none;
 }
 
 

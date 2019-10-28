@@ -26,7 +26,6 @@ $(document).ready(function(){
 
 
 
-    $("#stdInfo").hide();
     $("#std").mouseover(function(){
         $("#stdInfo").slideDown(500);
     })
@@ -34,7 +33,6 @@ $(document).ready(function(){
         $("#stdInfo").slideUp(500)
     })
 
-    $("#bobsInfo").hide();
     $("#bobs").mouseover(function(){
         $("#bobsInfo").slideDown(500);
     })
@@ -42,7 +40,6 @@ $(document).ready(function(){
         $("#bobsInfo").slideUp(500)
     })
 
-    $("#bearfootInfo").hide();
     $("#bearfootvoyage").mouseover(function(){
         $("#bearfootInfo").slideDown(500);
     })
@@ -50,7 +47,6 @@ $(document).ready(function(){
         $("#bearfootInfo").slideUp(500)
     })
 
-    $("#trainInfo").hide();
     $("#trainSchedule").mouseover(function(){
         $("#trainInfo").slideDown(500);
     })
@@ -58,7 +54,6 @@ $(document).ready(function(){
         $("#trainInfo").slideUp(500)
     })
 
-    $("#liriInfo").hide();
     $("#liri").mouseover(function(){
         $("#liriInfo").slideDown(500);
     })
@@ -66,7 +61,6 @@ $(document).ready(function(){
         $("#liriInfo").slideUp(500)
     })
     
-    $("#bamazonInfo").hide();
     $("#bamazon").mouseover(function(){
         $("#bamazonInfo").slideDown(500);
     })
