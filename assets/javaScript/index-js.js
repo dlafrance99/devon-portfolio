@@ -28,7 +28,7 @@ $(".contact-link").on("click", function(event){
     event.preventDefault();
 
     $(".allContent-wrapper").fadeOut(1000, function(){
-        window.location.replace("../contact.html")
+        window.location.href = "../../contact.html"
     });
 
 })
