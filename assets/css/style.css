@@ -8,8 +8,13 @@
     display: block;
 }
 
+.intro {
+    display: none
+}
+
 .allContent-wrapper {
     min-height: 100vh;
+    display: none;
 }
 
 .backgroundimg{

@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    $(".allContent-wrapper").hide();
 
     $(".allContent-wrapper").fadeIn(1000);
     
