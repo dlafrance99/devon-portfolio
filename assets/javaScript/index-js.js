@@ -19,7 +19,7 @@ $(".portfolio-link").on("click", function(event){
     event.preventDefault();
 
     $(".allContent-wrapper").fadeOut(1000, function(){
-        window.location.replace("https://dlafrance99.github.io/devon-portfolio/portfolio.html")
+        window.location.replace("portfolio.html")
     });
 
 })
@@ -28,7 +28,7 @@ $(".contact-link").on("click", function(event){
     event.preventDefault();
 
     $(".allContent-wrapper").fadeOut(1000, function(){
-        window.location.href = "devon-portfolio/contact.html"
+        window.location.replace("contact.html")
     });
 
 })

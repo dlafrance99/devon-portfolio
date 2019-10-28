@@ -8,7 +8,7 @@ $(document).ready(function(){
         event.preventDefault();
         
         $(".allContent-wrapper").fadeOut(1000, function(){
-            window.location.replace("file:///Users/devon/Desktop/code/Portfolio/devon-portfolio/home.html")
+            window.location.replace("home.html")
         });
         
     })
@@ -17,7 +17,7 @@ $(document).ready(function(){
         event.preventDefault();
         
         $(".allContent-wrapper").fadeOut(1000, function(){
-            window.location.replace("file:///Users/devon/Desktop/code/Portfolio/devon-portfolio/portfolio.html")
+            window.location.replace("portfolio.html")
         });
         
     })
