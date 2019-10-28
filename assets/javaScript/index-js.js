@@ -19,7 +19,7 @@ $(".portfolio-link").on("click", function(event){
     event.preventDefault();
 
     $(".allContent-wrapper").fadeOut(1000, function(){
-        window.location.href = "../portfolio.html"
+        window.location.href = "portfolio.html"
     });
 
 })
