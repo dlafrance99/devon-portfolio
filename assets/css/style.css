@@ -199,6 +199,10 @@ footer {
     margin: 5% 3vw;
 }
 
+.game-div a {
+    display: inline-block;
+}
+
 #frontEndApps {
     margin-top: 10px;
 }
