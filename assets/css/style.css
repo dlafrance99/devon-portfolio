@@ -127,7 +127,7 @@ h2{
 #footer {
     background-color: #252525;
     width: 100vw;
-    height: 10vh;
+    height: 12vh;
     border-top: solid;
     border-color: rgb(0, 0, 0);
     border-width: 10px;
@@ -141,7 +141,7 @@ h2{
 #portfolio-footer {
     background-color: #252525;
     width: 100vw;
-    height: 50px;
+    height: 12vh;
     border-top: solid;
     border-color: rgb(0, 0, 0);
     border-width: 10px;
@@ -225,6 +225,10 @@ footer {
     margin-top: 50px;
 }
 
+#githublink {
+    height: 2rem;
+    margin-left: 5vw;
+}
 
 .port-img {
     width: 25vw;
