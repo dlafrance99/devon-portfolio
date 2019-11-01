@@ -40,6 +40,13 @@ $(document).ready(function(){
         $("#bobsInfo").slideUp(500)
     })
 
+    $("#fit-to-scrape").mouseover(function(){
+        $("#fitToScrapeInfo").slideDown(500);
+    })
+    $("#fit-to-scrape").mouseout(function(){
+        $("#fitToScrapeInfo").slideUp(500)
+    })
+
     $("#bearfootvoyage").mouseover(function(){
         $("#bearfootInfo").slideDown(500);
     })
