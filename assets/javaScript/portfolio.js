@@ -47,6 +47,13 @@ $(document).ready(function(){
         $("#fitToScrapeInfo").slideUp(500)
     })
 
+    $("#click-game").mouseover(function(){
+        $("#clickGameInfo").slideDown(500);
+    })
+    $("#click-game").mouseout(function(){
+        $("#clickGameInfo").slideUp(500)
+    })
+
     $("#bearfootvoyage").mouseover(function(){
         $("#bearfootInfo").slideDown(500);
     })
