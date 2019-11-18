@@ -24,8 +24,14 @@ $(document).ready(function(){
         event.preventDefault();
     })
 
+    $("#sundayStaple").mouseover(function(){
+        $("#sundayInfo").slideDown(500);
+    })
+    $("#sundayStaple").mouseout(function(){
+        $("#sundayInfo").slideUp(500)
+    })
 
-
+   
     $("#std").mouseover(function(){
         $("#stdInfo").slideDown(500);
     })
