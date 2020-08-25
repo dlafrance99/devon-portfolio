@@ -87,4 +87,11 @@ $(document).ready(function(){
     $("#bamazon").mouseout(function(){
         $("#bamazonInfo").slideUp(500)
     })
+    
+    $("#NAWPutter").mouseover(function(){
+        $("#NAWPutterInfo").slideDown(500);
+    })
+    $("#NAWPutter").mouseout(function(){
+        $("#NAWPutterInfo").slideUp(500)
+    })
 })
